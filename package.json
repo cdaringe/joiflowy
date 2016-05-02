@@ -1,6 +1,6 @@
 {
   "name": "joiflowy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "concisely validate javascript function inputs with joi",
   "main": "src/index.js",
   "scripts": {
