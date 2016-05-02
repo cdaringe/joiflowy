@@ -8,11 +8,11 @@ validate function inputs as concisely as possible, using the powerful [joi](http
 
 ## why
 
-because writing defensive code with boilerplate is awful.  That is, no more `if (this.or.that) throw new Error(${whatever})` for all of the wild function input combinations you want to protect against
+because writing defensive code can be  tedious.  in other words, writing code like `if (this.or && this.or.that) throw new Error(${whatever})` for all of the input combinations you want to protect against is often exhausting, incomplete, or too verbose.
 
 _What's with the name?_
 
-It sounds kind of like joyfully, but it protects functions, our _control-flow_ foundation, so "joi" "flowy"
+"joiflowy" sounds close to joyfully.  given that this package protects functions, a core _control-flow_ mechanism, the combination of "joi" & "flow" only seemed appropriate.
 
 ## usage
 
