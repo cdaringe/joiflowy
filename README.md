@@ -8,13 +8,14 @@ validate function inputs as concisely as possible, using the powerful [joi](http
 
 ## why
 
-because writing defensive code can be  tedious.  in other words, writing code like:
+because writing defensive code can be tedious.  in other words, writing code like:
 
 ```js
-if (this.or && this.or.that) throw new Error(${whatever})
+if (!input.field || !input.otherField.deepField) throw new Error(${whatever})
+if (!(input.otherField.deepField instanceof Function)) throw new TypeError(${whatever})
 ```
 
-for all of the input combinations you want to protect against is often exhausting, incomplete, or too verbose.
+for all of the input combinations you want to protect against is often exhausting, incomplete, or too verbose.  using `joiflowy`, you can quickly scaffold _exactly what inputs will be accepted_, and trash the usual boilerplate.
 
 _What's with the name?_
 
