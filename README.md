@@ -8,7 +8,13 @@ validate function inputs as concisely as possible, using the powerful [joi](http
 
 ## why
 
-because writing defensive code can be  tedious.  in other words, writing code like `if (this.or && this.or.that) throw new Error(${whatever})` for all of the input combinations you want to protect against is often exhausting, incomplete, or too verbose.
+because writing defensive code can be  tedious.  in other words, writing code like:
+
+```js
+if (this.or && this.or.that) throw new Error(${whatever})
+```
+
+for all of the input combinations you want to protect against is often exhausting, incomplete, or too verbose.
 
 _What's with the name?_
 
@@ -27,7 +33,7 @@ need `joi.validate` options?  no problem
 
 ```js
 const jf = require('joiflowy')
-const Joi = require('joi') // jf doesn't care which joi eport used
+const Joi = require('joi') // jf doesn't care which joi is used. jf.joi/jf.Joi/jf.j all ==> joi
 const double = jf((a) => (a * 2), Joi.number(), { convert: false })
 double(2) // ==> 4
 double('2') // ==> throws ValidationError
