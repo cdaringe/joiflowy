@@ -13,11 +13,12 @@
   },
   "author": "cdaringe",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "joi": "*"
   },
   "devDependencies": {
     "istanbul": "^0.4.3",
-    "tape": "^4.5.1"
+    "tape": "^4.5.1",
+    "joi": "*"
   }
 }
