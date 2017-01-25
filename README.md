@@ -1,5 +1,7 @@
 # joiflowy
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cdaringe/joiflowy.svg)](https://greenkeeper.io/)
+
 [ ![Codeship Status for cdaringe/joiflowy](https://codeship.com/projects/a7e41c90-f2d7-0133-8697-16a4a456a383/status?branch=master)](https://codeship.com/projects/149607)
 
 ## what
