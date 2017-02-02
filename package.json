@@ -14,7 +14,7 @@
   "author": "cdaringe",
   "license": "MIT",
   "peerDependencies": {
-    "joi": "*"
+    "joi": ">=10.2.1"
   },
   "devDependencies": {
     "istanbul": "^0.4.3",
