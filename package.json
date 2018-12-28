@@ -19,6 +19,6 @@
   "devDependencies": {
     "istanbul": "^0.4.3",
     "tape": "^4.5.1",
-    "joi": "*"
+    "joi": ">=14.3.1"
   }
 }
